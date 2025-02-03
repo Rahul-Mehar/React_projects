@@ -1,3 +1,9 @@
+// we dont want to re-render the component when the value is change that by we use useRef
+
+// useRef is a react hook that allows us to create mutable variables, which will not re-render the component.
+// it means when we creating a variable by using useRef and the variable value will change it will not re-render the component 
+//  useRef is also used for accessing DOM elements.
+
 
 import { useEffect, useState, useRef } from 'react';
 import './App.css';
