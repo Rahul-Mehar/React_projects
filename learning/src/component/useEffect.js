@@ -1,3 +1,9 @@
+// the useEffect  hooko allows you to perform side effect in your components
+// some example of side effect are 
+// fetching data from api
+// directly updating the Dom
+// timers like setTimeout and setInterval
+
 import { useEffect, useState } from 'react';
 import './App.css';
 
